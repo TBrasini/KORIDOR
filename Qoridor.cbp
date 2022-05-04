@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Qoridor" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Qoridor" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Qoridor" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="4joueurs.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="4joueurs.h" />
+		<Unit filename="Affichage_score.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Affichage_score.h" />
+		<Unit filename="Joueur_2_4_verif.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Joueur_2_4_verif.h" />
+		<Unit filename="barriere.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="barriere.h" />
+		<Unit filename="couleur.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="couleur.h" />
+		<Unit filename="curseur.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="deplacement.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="deplacement.h" />
+		<Unit filename="deplacement34.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="deplacement34.h" />
+		<Unit filename="image.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="image.h" />
+		<Unit filename="interruption.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="interruption.h" />
+		<Unit filename="joueur.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="joueur.h" />
+		<Unit filename="lancement.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lancement.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="menu.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="menu.h" />
+		<Unit filename="partiedejeu.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="partiedejeu.h" />
+		<Unit filename="plateau.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="plateau.h" />
+		<Unit filename="regles.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="reprendre_partie.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="reprendre_partie.h" />
+		<Unit filename="score.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="sortie.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="verifjoueur.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="verifjoueur.h" />
+		<Unit filename="victoire.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="victoire.h" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

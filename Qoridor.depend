@@ -1,0 +1,387 @@
+# depslib dependency file v1.0
+1638963713 source:c:\users\t7bra\onedrive - groupe inseec (poce)\cours ece 2021 2022-laptop-c14dl7np-laptop-c14dl7np-laptop-c14dl7np\qoridor projetc\qoridor\barriere.c
+	<stdio.h>
+	"plateau.h"
+
+1638898426 source:c:\users\t7bra\onedrive - groupe inseec (poce)\cours ece 2021 2022-laptop-c14dl7np-laptop-c14dl7np-laptop-c14dl7np\qoridor projetc\qoridor\deplacement.c
+	<stdio.h>
+	"deplacement.h"
+	<conio.h>
+
+1638907900 source:c:\users\t7bra\onedrive - groupe inseec (poce)\cours ece 2021 2022-laptop-c14dl7np-laptop-c14dl7np-laptop-c14dl7np\qoridor projetc\qoridor\interruption.c
+	<stdio.h>
+	<windows.h>
+	"interruption.h"
+	"malloc.h"
+	<stdlib.h>
+	<string.h>
+
+1638563235 source:c:\users\t7bra\onedrive - groupe inseec (poce)\cours ece 2021 2022-laptop-c14dl7np-laptop-c14dl7np-laptop-c14dl7np\qoridor projetc\qoridor\joueur.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
+1638907745 source:c:\users\t7bra\onedrive - groupe inseec (poce)\cours ece 2021 2022-laptop-c14dl7np-laptop-c14dl7np-laptop-c14dl7np\qoridor projetc\qoridor\menu.c
+	"menu.h"
+	<stdio.h>
+	<stdlib.h>
+
+1635965330 source:c:\users\t7bra\onedrive - groupe inseec (poce)\cours ece 2021 2022-laptop-c14dl7np-laptop-c14dl7np-laptop-c14dl7np\qoridor projetc\qoridor\regles.c
+	"menu.h"
+
+1635786517 source:c:\users\t7bra\onedrive - groupe inseec (poce)\cours ece 2021 2022-laptop-c14dl7np-laptop-c14dl7np-laptop-c14dl7np\qoridor projetc\qoridor\score.c
+
+1638907203 source:c:\users\t7bra\onedrive - groupe inseec (poce)\cours ece 2021 2022-laptop-c14dl7np-laptop-c14dl7np-laptop-c14dl7np\qoridor projetc\qoridor\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"plateau.h"
+	"deplacement.h"
+	"barriere.h"
+	"partiedejeu.h"
+
+1638390228 c:\users\t7bra\onedrive - groupe inseec (poce)\cours ece 2021 2022-laptop-c14dl7np-laptop-c14dl7np-laptop-c14dl7np\qoridor projetc\qoridor\plateau.h
+	<stdio.h>
+
+1635776891 source:c:\users\t7bra\onedrive - groupe inseec (poce)\cours ece 2021 2022-laptop-c14dl7np-laptop-c14dl7np-laptop-c14dl7np\qoridor projetc\qoridor\sortie.c
+
+1638712019 source:c:\users\t7bra\onedrive - groupe inseec (poce)\cours ece 2021 2022-laptop-c14dl7np-laptop-c14dl7np-laptop-c14dl7np\qoridor projetc\qoridor\plateau.c
+	<windows.h>
+
+1635779338 source:c:\users\t7bra\onedrive - groupe inseec (poce)\cours ece 2021 2022-laptop-c14dl7np-laptop-c14dl7np-laptop-c14dl7np\qoridor projetc\qoridor\couleur.c
+	"plateau.h"
+	<windows.h>
+
+1635779391 source:c:\users\t7bra\onedrive - groupe inseec (poce)\cours ece 2021 2022-laptop-c14dl7np-laptop-c14dl7np-laptop-c14dl7np\qoridor projetc\qoridor\curseur.c
+	<windows.h>
+
+1635786305 c:\users\t7bra\onedrive - groupe inseec (poce)\cours ece 2021 2022-laptop-c14dl7np-laptop-c14dl7np-laptop-c14dl7np\qoridor projetc\qoridor\menu.h
+
+1635938270 c:\users\t7bra\onedrive - groupe inseec (poce)\cours ece 2021 2022-laptop-c14dl7np-laptop-c14dl7np-laptop-c14dl7np\qoridor projetc\qoridor\couleur.h
+
+1638733133 c:\users\t7bra\onedrive - groupe inseec (poce)\cours ece 2021 2022-laptop-c14dl7np-laptop-c14dl7np-laptop-c14dl7np\qoridor projetc\qoridor\deplacement.h
+	<stdio.h>
+
+1638623616 c:\users\t7bra\onedrive - groupe inseec (poce)\cours ece 2021 2022-laptop-c14dl7np-laptop-c14dl7np-laptop-c14dl7np\qoridor projetc\qoridor\barriere.h
+
+1638907900 source:c:\users\t7bra\onedrive - groupe inseec (poce)\cours ece 2021 2022-laptop-c14dl7np-laptop-c14dl7np-laptop-c14dl7np\qoridor projetc\qoridor\partiedejeu.c
+	"partiedejeu.h"
+
+1638716477 source:c:\users\t7bra\onedrive - groupe inseec (poce)\cours ece 2021 2022-laptop-c14dl7np-laptop-c14dl7np-laptop-c14dl7np\qoridor projetc\qoridor\deplacement34.c
+	<stdio.h>
+	"deplacement34.h"
+
+1638716587 c:\users\t7bra\onedrive - groupe inseec (poce)\cours ece 2021 2022-laptop-c14dl7np-laptop-c14dl7np-laptop-c14dl7np\qoridor projetc\qoridor\deplacement34.h
+
+1638637004 c:\users\t7bra\onedrive - groupe inseec (poce)\cours ece 2021 2022-laptop-c14dl7np-laptop-c14dl7np-laptop-c14dl7np\qoridor projetc\qoridor\partiedejeu.h
+
+1638863793 c:\users\t7bra\onedrive - groupe inseec (poce)\cours ece 2021 2022-laptop-c14dl7np-laptop-c14dl7np-laptop-c14dl7np\qoridor projetc\qoridor\interruption.h
+
+1638902547 source:c:\users\t7bra\onedrive - groupe inseec (poce)\cours ece 2021 2022-laptop-c14dl7np-laptop-c14dl7np-laptop-c14dl7np\qoridor projetc\qoridor\image.c
+
+1639082158 source:e:\qoridor projetc\qoridor\barriere.c
+	<stdio.h>
+	"plateau.h"
+
+1639047574 e:\qoridor projetc\qoridor\plateau.h
+	<stdio.h>
+
+1635779340 source:e:\qoridor projetc\qoridor\couleur.c
+	"plateau.h"
+	<windows.h>
+
+1635779392 source:e:\qoridor projetc\qoridor\curseur.c
+	<windows.h>
+
+1639048654 source:e:\qoridor projetc\qoridor\deplacement.c
+	<stdio.h>
+	"deplacement.h"
+	<conio.h>
+
+1638733134 e:\qoridor projetc\qoridor\deplacement.h
+	<stdio.h>
+
+1638716478 source:e:\qoridor projetc\qoridor\deplacement34.c
+	<stdio.h>
+	"deplacement34.h"
+
+1638716588 e:\qoridor projetc\qoridor\deplacement34.h
+
+1638902548 source:e:\qoridor projetc\qoridor\image.c
+
+1639075630 source:e:\qoridor projetc\qoridor\interruption.c
+	<stdio.h>
+	<windows.h>
+	"interruption.h"
+	"malloc.h"
+	<stdlib.h>
+	<string.h>
+
+1639072944 e:\qoridor projetc\qoridor\interruption.h
+
+1638563236 source:e:\qoridor projetc\qoridor\joueur.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
+1639082052 source:e:\qoridor projetc\qoridor\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"plateau.h"
+	"deplacement.h"
+	"barriere.h"
+	"partiedejeu.h"
+	"lancement.h"
+	"interruption.h"
+
+1638623618 e:\qoridor projetc\qoridor\barriere.h
+
+1638637006 e:\qoridor projetc\qoridor\partiedejeu.h
+
+1639045898 source:e:\qoridor projetc\qoridor\menu.c
+	"menu.h"
+	<stdio.h>
+	<stdlib.h>
+
+1635786306 e:\qoridor projetc\qoridor\menu.h
+
+1639083362 source:e:\qoridor projetc\qoridor\partiedejeu.c
+	"partiedejeu.h"
+	"plateau.h"
+
+1639051214 source:e:\qoridor projetc\qoridor\plateau.c
+	<windows.h>
+
+1639047092 source:e:\qoridor projetc\qoridor\regles.c
+	"menu.h"
+
+1635786518 source:e:\qoridor projetc\qoridor\score.c
+
+1635776892 source:e:\qoridor projetc\qoridor\sortie.c
+
+1639046702 e:\qoridor projetc\qoridor\lancement.h
+
+1639046714 source:e:\qoridor projetc\qoridor\lancement.c
+	<stdio.h>
+	<windows.h>
+
+1639129482 source:d:\qoridor projetc\qoridor\barriere.c
+	<stdio.h>
+	"plateau.h"
+
+1639047574 d:\qoridor projetc\qoridor\plateau.h
+	<stdio.h>
+
+1635779340 source:d:\qoridor projetc\qoridor\couleur.c
+	"plateau.h"
+	<windows.h>
+
+1635779392 source:d:\qoridor projetc\qoridor\curseur.c
+	<windows.h>
+
+1639128574 source:d:\qoridor projetc\qoridor\deplacement.c
+	<stdio.h>
+	"deplacement.h"
+	<conio.h>
+
+1638733134 d:\qoridor projetc\qoridor\deplacement.h
+	<stdio.h>
+
+1638716478 source:d:\qoridor projetc\qoridor\deplacement34.c
+	<stdio.h>
+	"deplacement34.h"
+
+1638716588 d:\qoridor projetc\qoridor\deplacement34.h
+
+1638902548 source:d:\qoridor projetc\qoridor\image.c
+
+1638563236 source:d:\qoridor projetc\qoridor\joueur.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
+1639046714 source:d:\qoridor projetc\qoridor\lancement.c
+	<stdio.h>
+	<windows.h>
+
+1639045898 source:d:\qoridor projetc\qoridor\menu.c
+	"menu.h"
+	<stdio.h>
+	<stdlib.h>
+
+1635786306 d:\qoridor projetc\qoridor\menu.h
+
+1639128796 source:d:\qoridor projetc\qoridor\partiedejeu.c
+	"partiedejeu.h"
+	"plateau.h"
+
+1638637006 d:\qoridor projetc\qoridor\partiedejeu.h
+
+1639129482 source:d:\qoridor projetc\qoridor\regles.c
+	"menu.h"
+
+1635786518 source:d:\qoridor projetc\qoridor\score.c
+
+1635776892 source:d:\qoridor projetc\qoridor\sortie.c
+
+1639082052 source:d:\qoridor projetc\qoridor\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"plateau.h"
+	"deplacement.h"
+	"barriere.h"
+	"partiedejeu.h"
+	"lancement.h"
+	"interruption.h"
+
+1638623618 d:\qoridor projetc\qoridor\barriere.h
+
+1639046702 d:\qoridor projetc\qoridor\lancement.h
+
+1639072944 d:\qoridor projetc\qoridor\interruption.h
+
+1639051214 source:d:\qoridor projetc\qoridor\plateau.c
+	<windows.h>
+
+1639075630 source:d:\qoridor projetc\qoridor\interruption.c
+	<stdio.h>
+	<windows.h>
+	"interruption.h"
+	"malloc.h"
+	<stdlib.h>
+	<string.h>
+
+1639083528 source:e:\qoridor projetc\qoridor\victoire.c
+	<stdio.h>
+
+1639128796 source:d:\qoridor projetc\qoridor\victoire.c
+	<stdio.h>
+
+1639309407 source:c:\users\t7bra\onedrive - groupe inseec (poce)\qoridor projetc\qoridor\barriere.c
+	<stdio.h>
+	"plateau.h"
+
+1639051174 c:\users\t7bra\onedrive - groupe inseec (poce)\qoridor projetc\qoridor\plateau.h
+	<stdio.h>
+
+1639354946 source:c:\users\t7bra\onedrive - groupe inseec (poce)\qoridor projetc\qoridor\couleur.c
+	"plateau.h"
+	<windows.h>
+
+1635782992 source:c:\users\t7bra\onedrive - groupe inseec (poce)\qoridor projetc\qoridor\curseur.c
+	<windows.h>
+
+1639325329 source:c:\users\t7bra\onedrive - groupe inseec (poce)\qoridor projetc\qoridor\deplacement.c
+	<stdio.h>
+	"deplacement.h"
+	<conio.h>
+
+1639258497 c:\users\t7bra\onedrive - groupe inseec (poce)\qoridor projetc\qoridor\deplacement.h
+	<stdio.h>
+
+1638720078 source:c:\users\t7bra\onedrive - groupe inseec (poce)\qoridor projetc\qoridor\deplacement34.c
+	<stdio.h>
+	"deplacement34.h"
+
+1638720188 c:\users\t7bra\onedrive - groupe inseec (poce)\qoridor projetc\qoridor\deplacement34.h
+
+1639357208 source:c:\users\t7bra\onedrive - groupe inseec (poce)\qoridor projetc\qoridor\image.c
+	"partiedejeu.h"
+	"plateau.h"
+
+1639354946 source:c:\users\t7bra\onedrive - groupe inseec (poce)\qoridor projetc\qoridor\interruption.c
+	<stdio.h>
+	<windows.h>
+	"interruption.h"
+	"malloc.h"
+	<stdlib.h>
+	<string.h>
+
+1639322585 c:\users\t7bra\onedrive - groupe inseec (poce)\qoridor projetc\qoridor\interruption.h
+
+1638566836 source:c:\users\t7bra\onedrive - groupe inseec (poce)\qoridor projetc\qoridor\joueur.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
+1639133212 source:c:\users\t7bra\onedrive - groupe inseec (poce)\qoridor projetc\qoridor\lancement.c
+	<stdio.h>
+	<windows.h>
+
+1639085652 source:c:\users\t7bra\onedrive - groupe inseec (poce)\qoridor projetc\qoridor\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"plateau.h"
+	"deplacement.h"
+	"barriere.h"
+	"partiedejeu.h"
+	"lancement.h"
+	"interruption.h"
+
+1639309407 c:\users\t7bra\onedrive - groupe inseec (poce)\qoridor projetc\qoridor\barriere.h
+
+1639258178 c:\users\t7bra\onedrive - groupe inseec (poce)\qoridor projetc\qoridor\partiedejeu.h
+
+1639050302 c:\users\t7bra\onedrive - groupe inseec (poce)\qoridor projetc\qoridor\lancement.h
+
+1639323778 source:c:\users\t7bra\onedrive - groupe inseec (poce)\qoridor projetc\qoridor\menu.c
+	"menu.h"
+	<stdio.h>
+	<stdlib.h>
+
+1635789906 c:\users\t7bra\onedrive - groupe inseec (poce)\qoridor projetc\qoridor\menu.h
+
+1639364422 source:c:\users\t7bra\onedrive - groupe inseec (poce)\qoridor projetc\qoridor\partiedejeu.c
+
+1639054814 source:c:\users\t7bra\onedrive - groupe inseec (poce)\qoridor projetc\qoridor\plateau.c
+	<windows.h>
+
+1639133082 source:c:\users\t7bra\onedrive - groupe inseec (poce)\qoridor projetc\qoridor\regles.c
+	"menu.h"
+
+1639274670 source:c:\users\t7bra\onedrive - groupe inseec (poce)\qoridor projetc\qoridor\score.c
+	"stdlib.h"
+	"stdio.h"
+
+1639364448 source:c:\users\t7bra\onedrive - groupe inseec (poce)\qoridor projetc\qoridor\sortie.c
+
+1639324631 source:c:\users\t7bra\onedrive - groupe inseec (poce)\qoridor projetc\qoridor\victoire.c
+	<stdio.h>
+
+1639350060 source:c:\users\t7bra\onedrive - groupe inseec (poce)\qoridor projetc\qoridor\reprendre_partie.c
+	"reprendre_partie.h"
+
+1639259299 c:\users\t7bra\onedrive - groupe inseec (poce)\qoridor projetc\qoridor\victoire.h
+
+1639275978 c:\users\t7bra\onedrive - groupe inseec (poce)\qoridor projetc\qoridor\reprendre_partie.h
+
+1639323286 source:c:\users\t7bra\onedrive - groupe inseec (poce)\qoridor projetc\qoridor\affichage_score.c
+	"Affichage_score.h"
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+
+1639323272 c:\users\t7bra\onedrive - groupe inseec (poce)\qoridor projetc\qoridor\affichage_score.h
+
+1639322977 source:c:\users\t7bra\onedrive - groupe inseec (poce)\qoridor projetc\qoridor\verifjoueur.c
+	"verifjoueur.h"
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
+1639322815 c:\users\t7bra\onedrive - groupe inseec (poce)\qoridor projetc\qoridor\verifjoueur.h
+
+1639323597 source:c:\users\t7bra\onedrive - groupe inseec (poce)\qoridor projetc\qoridor\4joueurs.c
+
+1639323699 source:c:\users\t7bra\onedrive - groupe inseec (poce)\qoridor projetc\qoridor\joueur_2_4_verif.c
+	"Joueur_2_4_verif.h"
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
+1639323653 c:\users\t7bra\onedrive - groupe inseec (poce)\qoridor projetc\qoridor\joueur_2_4_verif.h
+

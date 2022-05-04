@@ -1,0 +1,19 @@
+
+void RegleDuJeu ()
+{
+    int choix;
+    printf("Souhaitez vous un rappel sur les regles du jeu ?\n");
+    printf("rentrer 1 pour oui, sinon faites 0\n");
+    scanf("%d",choix);
+    if (choix ==1)
+    {
+        printf("Règle du jeu\n");
+        printf("BUT DU JEU \n Il s'agit d'atteindre le premier la ligne opposee à sa ligne de depart.");
+printf("En debut de partie, les barrières sont remisées dans leur zone de stockage. Chaque joueur pose son pion au centre de sa ligne de depart (la premiere ligne face à lui). Un tirage au sort determine qui commence.\n");
+printf("DEPLACEMENTS\nA tour de rôle, chaque joueur choisit :\n de déplacer son pion d'une case verticalement ou horizontalement, en avant ou en arriere de poser une de ses barrières. Une barrière doit être posée exactement entre deux blocs de 2 cases. Lorsqu'il n'a plus de barrieres, un joueur est oblige de déplacer son pion.\n");
+printf("La pose des barrieres a pour but de se créer son propre chemin ou de ralentir d'adversaire, mais il est interdit de lui fermer totalement l'acces à sa ligne de but.");
+printf("Quand 2 pions se retrouvent en vis-à-vis sur 2 cases voisines non séparées par une barrière, le joueur dont c'est le tour peut sauter par-dessus son adversaire et se retrouver derrière lui. Si une barriere se trouve derriere le pion saute, le joueur peut choisir de bifurquer à droite ou à gauche du pion sauté.\n");
+printf("REGLE POUR 4 JOUEURS\n En début de partie, les 4 pions sont disposes au centre de chacun des 4 côtés du plateau et chaque joueur dispose de 5 barrieres. Les regles sont strictement identiques, mais on ne peut sauteur plus d'un pion à la fois.");
+    }
+
+}

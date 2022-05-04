@@ -1,0 +1,278 @@
+#include <stdio.h>
+#include "deplacement.h"
+#include "plateau.c"
+
+/*
+Repere pour toutes les cases de notre tableau
+int A = 4;
+int B = 8;
+int C = 12;
+int D = 16;
+int E = 20;
+int F = 24;
+int G = 28;
+int H = 32;
+int I = 36;
+
+int X1 = 2;
+int X2 = 4;
+int X3 = 6;
+int X4 = 8;
+int X5 = 10;
+int X6 = 12;
+int X7 = 14;
+int X8 = 16;
+int X9 = 18;
+*/
+
+
+void Deplacement_J1_start (int* ancienX, int* ancienY, char tab [18][37])
+{
+    int valueY,valueX,valueYchange;
+    char valueXchange;
+ //premier pas joueur commence sur sa premiere ligne
+ //premier à commencer toujours en haut
+  printf("Joueur 1 commencer a placer votre pion\n");
+  printf("vous pouvoir choisir de commencer sur votre première ligne en haut\n");
+  printf("rentrer votre colonne entre A et I : ");
+do
+{
+    scanf("%c",&valueXchange);
+
+}
+
+while (valueXchange>='A'&&valueXchange<='I');  //ne peut jouer que sur la premier ligne du haut
+printf("rentrer l'axe des Y entre 1 et 9 : ");
+fflush(stdin);
+do
+{
+   scanf("%d",&valueY);
+   fflush(stdin);
+   if (valueY!=1)
+    printf("recommencer vous n'êtes pas sur la première ligne\n");
+}
+while (valueY!=1);  // choisis sur quel numéro de la ligne 1
+valueY*=2;
+if (valueXchange=='A')
+    valueX=4;
+if (valueXchange=='B')
+    valueX=8;
+if (valueXchange=='C')
+    valueX=12;
+if (valueXchange=='D')
+    valueX=16;
+if (valueXchange=='E')
+    valueX=20;
+if (valueXchange=='F')
+    valueX=24;
+if (valueXchange=='G')
+    valueX=28;
+if (valueXchange=='H')
+    valueX=32;
+if (valueXchange=='I')
+    valueX=36;
+*ancienX=valueX;
+*ancienY=valueY;
+for (int i = 0; i<18;i++)
+{
+    for (int j = 0; j<37 ; j++)
+    {
+      tab[valueX][valueY]='p';
+    }
+}
+    AffichePlateau(plateau);
+  //gotoligcol(valueX,valueY);
+  //printf("pion jouer1");
+}
+
+void DeplacementJ2start (int* ancienX, int* ancienY,char tab [18][37])
+{
+    int valueY,valueX,valueYchange;
+    char valueXchange;
+
+ //premier pas joueur commence sur sa premiere ligne
+ //premier à commencer toujours en bas
+  printf("Joueur 2 commencer a placer votre pion\n");
+  printf("vous pouvoir choisir de commencer sur votre première ligne à gauche\n");
+   printf("rentrer l'axe des X entre A et I :");
+do
+{
+    scanf("%c",&valueXchange);
+}
+while (valueXchange>='A'&& valueXchange<='I');
+printf("rentrer l'axe des Y = 9");
+do
+{
+   scanf("%d",&valueY);
+}
+while (valueY!=9);
+valueY*=2;
+if (valueXchange=='A')
+    valueX=4;
+if (valueXchange=='B')
+    valueX=8;
+if (valueXchange=='C')
+    valueX=12;
+if (valueXchange=='D')
+    valueX=16;
+if (valueXchange=='E')
+    valueX=20;
+if (valueXchange=='F')
+    valueX=24;
+if (valueXchange=='G')
+    valueX=28;
+if (valueXchange=='H')
+    valueX=32;
+if (valueXchange=='I')
+    valueX=36;
+*ancienX=valueX;
+*ancienY=valueY;
+ tab[valueX][valueY]='p';
+ // gotoligcol(valueX,valueY);
+ // printf("pion jouer2");
+}
+
+void DeplacementJ3start (int* ancienX, int* ancienY,char tab [18][37])
+{
+    int valueY,valueX,valueYchange;
+    char valueXchange;
+
+ //premier pas joueur commence sur sa premiere ligne
+ //premier à commencer toujours en bas
+  printf("Joueur 3 commencer a placer votre pion\n");
+    printf("vous pouvoir choisir de commencer sur votre première ligne en bas\n");
+
+  printf("rentrer l'axe des X = I");
+do
+{
+    scanf("%c",&valueXchange);
+}
+while (valueXchange!='I');  //ne peut jouer que sur la premier ligne du haut
+printf("rentrer l'axe des Y entre 1 et 9 : 0");
+do
+{
+   scanf("%d",&valueY);
+}
+while (valueY>=1&& valueY<=9);  // choisis sur quel numéro de la ligne 1
+valueY*=2;
+if (valueXchange=='I')
+    valueX=36;
+*ancienX=valueX;
+*ancienY=valueY;
+ tab[valueX][valueY]='p';
+  gotoligcol(valueX,valueY);
+  printf("pion jouer3");
+}
+
+
+void DeplacementJ4start (int* ancienX, int* ancienY,char tab[18][37])
+{
+    int valueY,valueX,valueYchange;
+    char valueXchange;
+
+ //premier pas joueur commence sur sa premiere ligne
+ //premier à commencer toujours en bas
+  printf("Joueur 4 commencer à placer votre pion");
+    printf("rentrer l'axe des X entre A et I : ");
+do
+{
+    scanf("%c",&valueXchange);
+}
+while (valueXchange>='A'&& valueXchange<='I');
+printf("rentrer l'axe des Y = 1");
+do
+{
+   scanf("%d",&valueY);
+}
+while (valueY!=1);
+valueY*=2;
+if (valueXchange=='A')
+    valueX=4;
+if (valueXchange=='B')
+    valueX=8;
+if (valueXchange=='C')
+    valueX=12;
+if (valueXchange=='D')
+    valueX=16;
+if (valueXchange=='E')
+    valueX=20;
+if (valueXchange=='F')
+    valueX=24;
+if (valueXchange=='G')
+    valueX=28;
+if (valueXchange=='H')
+    valueX=32;
+if (valueXchange=='I')
+    valueX=36;
+*ancienX=valueX;
+*ancienY=valueY;
+ tab[valueX][valueY]='p';
+
+  gotoligcol(valueX,valueY);
+  printf("pion joueur4");
+}
+
+void deplacement (int* ancienX, int* ancienY,char tab [18][37])
+{
+    int valueY,valueX,valueYchange;
+    char valueXchange;
+
+    char pion;
+printf("c'est a vous de vous deplacer\n");
+printf("vous pouvez avancer d'une case vers l'avant, la gauche ou la droite\n");
+printf("rentrer l'axe des X entre A et I : ");
+do
+{
+    scanf("%c",&valueXchange);
+if (valueXchange=='A')
+    valueX=4;
+if (valueXchange=='B')
+    valueX=8;
+if (valueXchange=='C')
+    valueX=12;
+if (valueXchange=='D')
+    valueX=16;
+if (valueXchange=='E')
+    valueX=20;
+if (valueXchange=='F')
+    valueX=24;
+if (valueXchange=='G')
+    valueX=28;
+if (valueXchange=='H')
+    valueX=32;
+if (valueXchange=='I')
+    valueX=36;
+}
+while ((valueXchange>='A'&& valueXchange<='I')&&(valueX-*ancienX!=-4||valueX-*ancienX!=4||valueX-*ancienX!=0));// blindage entre A et I + blindage deplacement d'une seule case
+printf("rentrer l'axe des Y entre 1 et 9 : ");
+do
+{
+   scanf("%d",&valueYchange);
+   valueY=(2*valueYchange);
+}
+while ((valueYchange>=1&& valueYchange<=9)&&(valueY-*ancienY!=-2||valueY-*ancienY!=2||valueY-*ancienY!=0)); //blindage entre 1 et 9 + blindage deplacement d'une seule case
+if (ancienX!=valueX&&ancienY!=valueY) // cas ou le joueur à changer deux valeurs et à avancer en diagonale
+{
+    printf("vous ne pouvez pas avancer en diagonale\n veuillez recommencer\n ");
+    valueX=ancienX;
+    deplacement(&ancienX,&ancienY, tab );
+}
+for (int i = 0; i<18;i++)
+{
+    for (int j = 0; j<37 ; j++)
+    {
+      tab[*ancienY][*ancienX]=' ';
+    }
+}
+
+*ancienX=valueX;
+*ancienY=valueY;
+ for (int i = 0; i<17;i++)
+{
+    for (int j = 0; j<38 ; j++)
+    {
+      tab[valueY][valueX]='p';
+    }
+}
+
+}
